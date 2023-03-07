@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>js toan tu</title>
+</head>
+<body>
+<button type="button" onclick="tinhDienTich();">Tinh S Hinh Chu Nhat!!</button>
+<script>
+    function tinhDienTich() {
+        let inputWidth = prompt('Nhap chieu rong: ');
+        let inputHeight = prompt('Nhap chieu dai: ');
+        let width = +inputWidth;
+        let height = +inputHeight;
+        let S = width * height;
+        document.write('Chieu rong= ' + width + '<br/>');
+        document.write('Chieu dai= ' + height + '<br/>');
+        document.write('S  = ' + S);
+    }
+</script>
+</body>
+</html>
